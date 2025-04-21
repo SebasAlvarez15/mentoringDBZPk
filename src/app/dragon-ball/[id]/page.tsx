@@ -1,5 +1,5 @@
-import { DragonBallCharacterDetail } from "@/app/features/dragon-ball/server/dto";
-import DragonBallCharacterDetailComponent from "@/app/features/dragon-ball/components/dragon-ball-character-detail";
+import { DragonBallCharacterDetail } from "@/features/dragon-ball/server/dto";
+import DragonBallCharacterDetailComponent from "@/features/dragon-ball/components/dragon-ball-character-detail";
 
 interface CharacterProps {
   params: Promise<{ id: string }>;
